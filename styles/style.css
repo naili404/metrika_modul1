@@ -15,7 +15,7 @@ body {
 
 h1 {
   margin-top: 73px;
-  font-size: 60px;
+  font-size: 61px;
   line-height: 60px;
   letter-spacing: -0.03em;
   color: #121212;
@@ -51,7 +51,7 @@ h2 {
 }
 
 .nav-link {
-  margin-left: 57px;
+  margin-left: 52px;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
@@ -79,7 +79,7 @@ h2 {
 
 .intro__text {
   position: absolute;
-  bottom: 40px;
+  bottom: 44px;
   left: 40px;
   color: #ffffff;
   font-size: 20px;
@@ -95,8 +95,8 @@ h2 {
 }
 
 .about__text {
-  margin-top: 30px;
-  font-size: 45px;
+  margin-top: 27px;
+  font-size: 46px;
   line-height: 61px;
   letter-spacing: -0.03em;
 }
@@ -129,8 +129,8 @@ h2 {
   margin-top: 90px;
 }
 .project__title {
-  margin: 10px 0 15px 0;
-  font-size: 30px;
+  margin: 11px 0 15px 0;
+  font-size: 27px;
   line-height: 41px;
   letter-spacing: -0.03em;
   text-transform: uppercase;
@@ -162,9 +162,13 @@ h2 {
 }
 /* --------------------УСЛУГИ------------------------------------------------------------------ */
 .services {
-  margin-top: 150px;
+  max-width: 100%;
   height: 1844px;
   background-color: #121212;
+}
+.service__wrap {
+  margin: 0 auto;
+  width: 1150px;
 }
 
 .services-list {
@@ -172,7 +176,8 @@ h2 {
   width: 1150px;
 }
 .services h2 {
-  padding: 151px 0 34px 695px;
+  margin: 151px 0 0 0;
+  padding: 150px 0 30px 0;
 
   color: #ffffff;
 }
@@ -241,7 +246,7 @@ h2 {
 /* --------------------ФУТЕР------------------------------------------------------------------ */
 
 footer {
-  margin-top: 159px;
+  margin-top: 152px;
 
   height: 229px;
   background-color: #121212;
@@ -272,8 +277,8 @@ footer {
 }
 .footer_text {
   margin-top: 87px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 949px;
+
   width: 409px;
   height: 27px;
   font-size: 20px;
